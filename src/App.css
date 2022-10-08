@@ -1,0 +1,123 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+ }
+
+ body {
+    background: linear-gradient(33deg, #adad, #adadaa);
+ }
+
+ .App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+ }
+
+ .com-player {
+    display: block;
+    background-color: #333;
+    margin: 0px auto;
+    padding: 50px;
+    border-radius: 34px;
+    box-shadow: inset -6px -6px 12px rgba(0, 0 , 0, 0.8), inset 6px 6px 12px rgba(255, 255, 255, 0.4);
+ }
+
+ .com-player > h3 {
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+
+ }
+ .info-player .info-img {
+    position: relative;
+    width: fit-content;
+    margin: 50px auto;
+
+ }
+
+ .info-player .info-img img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+ }
+
+ .info-player .info-artist {
+    color: #adad;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8), -2px -2px -4px rgba(255, 255, 255, 0.4);
+    text-align: center;
+    margin-bottom: 20px;
+ }
+ .info-player .info-title {
+    color: #fdfdfd;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 4px 4px 6px #333 , -4px -4px 6px #aaa;
+ }
+ .info-player .info-time {
+   color: #fffd;
+   text-align: center;
+   margin-bottom: 20px;
+   padding: 5px;
+ }
+ .controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+ }
+
+ .controls .play-btn{
+    display: flex;
+    margin: 0 30px;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 8px #000a,
+    -2px -2px 8px #fffa,
+    inset -2px -2px 8px #000a,
+    inset 5px 5px 8px #fffa;
+    border: none;
+    outline: none;
+    background-color: #eeeaae;
+    color: #000a;
+    font-size: 24px;
+    width: 60px;
+    cursor: pointer;
+
+ }
+
+ .controls .skip-btn {
+    background: none;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+
+ }
+
+ .com-player > p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: #fffa;
+
+ }
+ .com-player > p strong {
+    color: #eeeaae;
+    font-size: 18px;
+ }
+ .com-player > p span {
+   color: #acac;
+   padding: 4px;
+ }
