@@ -8,10 +8,10 @@ function Player(props) {
 
     const audioEl = useRef(null);
 
-    const [songPlaying, setSongPlaying] = useState(false);
+    const [isPlaying, setIsPlaying] = useState(false);
 
     useEffect(() => {
-        if(songPlaying){
+        if(isPlaying){
             audioEl.current.play();
         }else{
             audioEl.current.pause();
@@ -47,12 +47,12 @@ function Player(props) {
         <h3>now playing</h3>
         <Information  tracks={props.tracks[props.currentSongIndex]}/>
         <Controls 
-        songPlaying={songPlaying} 
-        setSongPlaying={setSongPlaying}
+        songPlaying={isPlaying} 
+        setSongPlaying={setIsPlaying}
         SkipSong={SkipSong}
          />
-        <p><strong>Next up:</strong> 
-        {props.tracks[ props.nextSongIndex ].title}  by   <span>   
+        <p><strong>Next up: </strong> 
+         {props.tracks[ props.nextSongIndex ].title}  by   <span>   
             { props.tracks[ props.nextSongIndex ].artist}</span>
          </p>
     </div>

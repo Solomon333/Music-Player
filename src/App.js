@@ -4,13 +4,13 @@ import "./App.css";
 
 function App() {
 
-  const [tracks] = useState([
+  const [tracks]  = useState([
     {
       title: " Three Little Birds",
       artist: " Bob Marley",
       time: "3:00",
-      img_src: " ./images/three-little-birds.jpg",
-      src: "./music/song1.mp3"
+      img_src: "../public/images/bob marley three-little-birds.jpg",
+      src: "./music/Bob_Marley_The_Wailers_Three_Little_Birds.mp3"
     },
 
     {
@@ -236,14 +236,19 @@ function App() {
   }, [currentSongIndex]);
 
   return (
+    <div className='wrapper'>
+      <nav className='header'>
+      <p>Music Is Life</p>
+      <p>SoloDev</p>
+      </nav>
     <div className="App">
       <Player 
-        currentSongIndex={currentSongIndex}
+        currentSongIndex={currentSongIndex} 
         setCurrentSongIndex={setCurrentSongIndex}
         nextSongIndex={nextSongIndex}
         tracks={tracks}
       />
-     
+     </div>
     </div>
   );
 }

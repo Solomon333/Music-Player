@@ -7,6 +7,9 @@
 
  body {
     background: linear-gradient(33deg, #adad, #adadaa);
+    background-image: url(../public/images/dj.jpg);
+    background-position: center;
+    background-size: cover;
  }
 
  .App {
@@ -18,7 +21,8 @@
 
  .com-player {
     display: block;
-    background-color: #333;
+    background-color: #460177;
+    opacity: 0.8;
     margin: 0px auto;
     padding: 50px;
     border-radius: 34px;
@@ -49,21 +53,21 @@
  }
 
  .info-player .info-artist {
-    color: #adad;
+    color: #E7FF29;
     font-size: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8), -2px -2px -4px rgba(255, 255, 255, 0.4);
     text-align: center;
     margin-bottom: 20px;
  }
  .info-player .info-title {
-    color: #fdfdfd;
+    color: #fff;
     font-size: 30px;
     text-align: center;
     margin-bottom: 20px;
     text-shadow: 4px 4px 6px #333 , -4px -4px 6px #aaa;
  }
  .info-player .info-time {
-   color: #fffd;
+   color: #fff;
    text-align: center;
    margin-bottom: 20px;
    padding: 5px;
@@ -86,8 +90,8 @@
     inset 5px 5px 8px #fffa;
     border: none;
     outline: none;
-    background-color: #eeeaae;
-    color: #000a;
+    background-color: #9DAFE2;
+    color: #000;
     font-size: 24px;
     width: 60px;
     cursor: pointer;
@@ -110,7 +114,7 @@
     justify-content: center;
     margin-bottom: 20px;
     font-size: 15px;
-    color: #fffa;
+    color: #DE535E;
 
  }
  .com-player > p strong {
@@ -118,6 +122,29 @@
     font-size: 18px;
  }
  .com-player > p span {
-   color: #acac;
+   color: #E7FF29;
    padding: 4px;
+ }
+
+ .header {
+   display: flex;
+   justify-content: space-between;
+   padding: 14px;
+   margin: 15px;
+ }
+ .header p{
+   font-family: 'Srisakdi', cursive;
+   color: #EAC7ED;
+   font-size: 3em;
+ }
+
+ @media (max-width: 800px) {
+   .header p {
+      font-size: 1.5em;
+   }
+   .App {
+      display: block;
+      
+   }
+   
  }
