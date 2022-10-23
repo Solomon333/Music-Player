@@ -27,7 +27,7 @@ function App() {
       artist: " Jahmil",
       time: "2:06",
       img_src: " ./images/jahmil-strongest-soldier.jpg",
-      src: "./music/Jahmiel_The_Strongest_Soldier.mp3"
+      src: "./music/Jahmiel_Strongest_Soldier.mp3"
   
     },
     {
