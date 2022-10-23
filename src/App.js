@@ -9,7 +9,7 @@ function App() {
       title: " Three Little Birds",
       artist: " Bob Marley",
       time: "3:00",
-      img_src: "../public/images/bob marley three-little-birds.jpg",
+      img_src: "./images/bob marley three-little-birds.jpg",
       src: "./music/Bob_Marley_The_Wailers_Three_Little_Birds.mp3"
     },
 
@@ -17,8 +17,8 @@ function App() {
       title: " Gain The World",
       artist: " Jahmil",
       time: "2:54",
-      img_src: "./images/gain-the-world.jpg",
-      src: "./music/song2.mp3"
+      img_src: "./images/jahmil-gain-the-world.jpg",
+      src: "./music/Jahmiel_Gain_The_World.mp3"
 
     },
 
@@ -26,8 +26,8 @@ function App() {
       title: " Strongest Soldier",
       artist: " Jahmil",
       time: "2:06",
-      img_src: " ./images/strongest-soldier.jpg",
-      src: "./music/song3.mp3"
+      img_src: " ./images/jahmil-strongest-soldier.jpg",
+      src: "./music/Jahmiel_The_Strongest_Soldier.mp3"
   
     },
     {
@@ -35,23 +35,23 @@ function App() {
       artist: " Masicka",
       time: "2:55",
       img_src: " ./images/masicka.webp",
-      src: "./music/masicka.mp3"
+      src: "./music/Masicka_They_Don_t_Know.mp3"
   
     },
     {
       title: " Rush",
       artist: " Arya Starr",
       time: "3:06",
-      img_src: " ./images/rush.jpg",
-      src: "./music/arya-starr.mp3"
+      img_src: " ./images/arya-starr-rush.jpg",
+      src: "./music/Ayra_Starr_Rush_Lyrics_.mp3"
   
     },
     {
       title: " Simpel Blessings",
       artist: " Tarus Riley feat Konshens",
       time: "2:57",
-      img_src: " ./images/simple-blessings.jpg",
-      src: "./music/simplest.mp3"
+      img_src: " ./images/simple blessings.jpg",
+      src: "./music/Tarrus_Riley_Simple_Blessings.mp3"
   
     },
     {
@@ -59,7 +59,7 @@ function App() {
       artist: " Revel Day",
       time: "3:33",
       img_src: " ./images/soulless.jpg",
-      src: "./music/soulless.mp3"
+      src: "./music/Revel_Day_feat_R_A_D_Soulless.mp3"
   
     },
     {
@@ -67,31 +67,31 @@ function App() {
       artist: " Koffee",
       time: "2:54",
       img_src: " ./images/toast.jpg",
-      src: "./music/toast.mp3"
+      src: "./music/Koffee_Toast.mp3"
   
     },
     {
       title: " Better Kind Of Bitter",
       artist: " Jobii",
       time: "3:15",
-      img_src: " ./images/better-kind.jpg",
-      src: "./music/jobii.mp3"
+      img_src: " ./images/better kind.jpg",
+      src: "./music/Jobii_Better_Kind_of_Bitter.mp3"
   
     },
     {
       title: " Why Couldn't We Keep That",
       artist: " Taynte",
       time: "3:06",
-      img_src: " ./images/taynte.png",
-      src: "./music/taynte.mp3"
+      img_src: " ./images/why couldnt we keep it together.png",
+      src: "./music/Taynte_Why_Couldn_t_We_Keep_That.mp3"
   
     },
     {
       title: " Happy Without You",
       artist: " Wildson",
       time: "3:29",
-      img_src: " ./images/wildson.jpg",
-      src: "./music/wildson.mp3"
+      img_src: " ./images/happy without you.jpg",
+      src: "./music/Wildson_Happy_Without_You.mp3"
   
     },
     {
@@ -99,7 +99,7 @@ function App() {
       artist: " Roddy Rich",
       time: "3:13",
       img_src: " ./images/ballin.jpg",
-      src: "./music/ballin.mp3"
+      src: "./music/Mustard_Ballin_ft_Roddy_Ricch.mp3"
   
     },
     {
@@ -107,7 +107,7 @@ function App() {
       artist: " J-Cole",
       time: "4:53",
       img_src: " ./images/no-role-models.png",
-      src: "./music/norole-models.mp3"
+      src: "./music/J_Cole_No_Role_Modelz_Explicit_.mp3"
   
     },
     {
@@ -115,7 +115,7 @@ function App() {
       artist: " Roddy Rich",
       time: "3:44",
       img_src: " ./images/down-below.jpg",
-      src: "./music/down-below.mp3"
+      src: "./music/Roddy_Ricch_Down_Below.mp3"
   
     },
     {
@@ -123,15 +123,15 @@ function App() {
       artist: " Dababy feat Roddy Rich",
       time: "3:29",
       img_src: " ./images/baby-rockstar.jpg",
-      src: "./music/dababy-rockstar.mp3"
+      src: "./music/DaBaby_ROCKSTAR_FT_RODDY_RICCH.mp3"
   
     },
     {
       title: " Sober Thoughts",
       artist: " Xavy Rusan",
       time: "2:42",
-      img_src: " ./images/sober-thoughts.jpg",
-      src: "./music/sober-thoughts.mp3"
+      img_src: " ./images/sober thoughts.jpg",
+      src: "./music/Xavy_Rusan_Sober_Thoughts.mp3"
   
     },
     {
@@ -139,7 +139,7 @@ function App() {
       artist: " Angel",
       time: "3:09",
       img_src: " ./images/angel-blessings.jpg",
-      src: "./music/angel-blessings.mp3"
+      src: "./music/Angel_Blessings_Official_Video_.mp3"
   
     },
     {
@@ -147,7 +147,7 @@ function App() {
       artist: " Levert",
       time: "6:10",
       img_src: " ./images/cassanova.jpg",
-      src: "./music/levert-cassanova.mp3"
+      src: "./music/Levert_Casanova.mp3"
   
     },
     {
@@ -155,7 +155,7 @@ function App() {
       artist: " Gyptian",
       time: "3:53",
       img_src: " ./images/hold-you.jpg",
-      src: "./music/hold-you.mp3"
+      src: "./music/Gyptian_Hold_You.mp3"
   
     },
     {
@@ -163,7 +163,7 @@ function App() {
       artist: " Ben E King",
       time: "2:55",
       img_src: " ./images/stand-by-me.jpg",
-      src: "./music/ben-e-king.mp3"
+      src: "./music/Ben_E_King_Stand_by_Me.mp3"
   
     },
     {
@@ -171,7 +171,7 @@ function App() {
       artist: " Dre Island feat Popcan",
       time: "4:06",
       img_src: " ./images/we-pray.jpg",
-      src: "./music/we-pray.mp3"
+      src: "./music/Dre_Island_We_Pray_ft_Popcaan.mp3"
   
     },
     {
@@ -179,7 +179,7 @@ function App() {
       artist: " Lill Dicky feat Chris Brown",
       time: "3:36",
       img_src: " ./images/freaky-friday.jpg",
-      src: "./music/freakyfriday.mp3"
+      src: "./music/Lil_Dicky_Freaky_Friday_feat_Chris_Brown_.mp3"
   
     },
     {
@@ -187,7 +187,7 @@ function App() {
       artist: " Michael Kiwanuka",
       time: "3:30",
       img_src: " ./images/cold-heart.jpg",
-      src: "./music/cold-heart.mp3"
+      src: "./music/Michael_Kiwanuka_Cold_Little_Heart.mp3"
   
     },
     {
@@ -195,7 +195,7 @@ function App() {
       artist: " Ne-Yo",
       time: "4:14",
       img_src: " ./images/mad-ne-yo.jpg",
-      src: "./music/mad.mp3"
+      src: "./music/Ne_Yo_Mad.mp3"
   
     },
     {
@@ -203,7 +203,7 @@ function App() {
       artist: " Michael Jackson",
       time: "4:18",
       img_src: " ./images/smooth-criminal.jpg",
-      src: "./music/smooth-criminal.mp3"
+      src: "./music/Michael_Jackson_Smooth_Criminal_Audio_HQ_.mp3"
   
     },
     {
@@ -211,7 +211,7 @@ function App() {
       artist: " The Temptations",
       time: "2:55",
       img_src: " ./images/my-girl.jpg",
-      src: "./music/my-girl.mp3"
+      src: "./music/The_Temptations_My_Girl.mp3"
   
     },
     
