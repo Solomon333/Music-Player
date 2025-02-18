@@ -4,6 +4,6 @@
 
 - Create React App
 
-- React hooks.
+- React hooks
 
 
