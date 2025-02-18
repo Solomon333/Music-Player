@@ -1,6 +1,6 @@
  MUSIC-PLAYER
 
-- Enjoy listinig to you favorite music.
+- Enjoy listinig to your favorite music
 
 - Create React App.
 
