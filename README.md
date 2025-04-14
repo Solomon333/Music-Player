@@ -1,8 +1,6 @@
  MUSIC-PLAYER 
 
-- Enjoy listinig to your favorite music
-
-- Create React App 
+- Enjoy listinig to your favorite music / reate React App 
 
 - React hooks
 
